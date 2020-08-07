@@ -1,0 +1,60 @@
+h1 {
+  margin-left: 720px;
+  color: green;
+  font-family: fantasy;
+  font-size: 50px;
+  align-content: center;
+}
+
+body {
+  margin: 0;
+}
+
+/* ul {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+}
+
+li {
+  padding: 1em;
+}
+
+nav {
+  float: left;
+} */
+
+.header {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  font-size: larger;
+  color: white;
+  background-color: green;
+}
+
+/*for images */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 200px;
+  margin-right: 50px;
+}
+
+/* material form */
+
+.example-card {
+  max-width: 350px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.search-container {
+  margin-top: 10px;
+  border-radius: 30px;
+  height: 50%;
+  width: 45%;
+}

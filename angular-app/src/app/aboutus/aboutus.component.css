@@ -1,0 +1,9 @@
+p {
+  font-size: 50px;
+}
+
+.title,
+.name {
+  color: green;
+  font-family: fantasy;
+}
